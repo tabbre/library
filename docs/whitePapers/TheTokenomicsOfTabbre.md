@@ -114,14 +114,132 @@ Tabbre's dual coin scheme will be a censor resistant global monetary system that
 
 
 
-## TABB
+## TABB Tokenomics
 
-## BRE
+
+
+TABB is a digital gold crypto-currency and as such has a limited issuance, a total of 1,000,000,000 TABB will be created. 250,000,000 will be preminted and 750,000,000 will be minted when new blocks are added on to the TabbreChain. 
+
+The 200,000,000 of the preminted TABB will be sold to investors and 50,000,000 will be held in reserve by the foundation or distributed to founders and partners.
+
+### Usage
+As an appreciating asset, the Foundation will use its holdings of TABB as collateral for the sale of fiat denominated bonds. The funds raised from bond sales will be invested in commercially viable schemes that deliver sustainable energy generation, storage and distribution as well as other sustainable technologies. The profits generated from these investments will be reinvested in further commercially viable schemes that deliver sustainable energy generation, storage and distribution.
+
+At some point in the future the Foundation will stop reinvesting profits and instead use its profits to purchase TABB from the open market. 
+
+The Foundation will burn any TABB that it purchases from the open market as well as burning the same amount of TABB from its reserves. Burning TABB in this way will reduce the supply of TABB and so should lead to an increase in the value of the remaining TABB.
+
+### **TABB Allocation** {#tabb-allocation}
+
+A total of one billion TABB will be minted.
+
+The allocation of these TABB coins is set out in the following table:
+
+| Purpose      | Allocation % | Allocation Quantity |
+| :----------- | :----------: | ------------------- |
+| Private Sale |     20%      | 200,000,000         |
+| Public Sale  |     10%      | 100,000,000         |
+| Founders     |     10%      | 100,000,000         |
+| Reserve      |     60%      | 600,000,000         |
+| Total        |     100%     | 1,000,000,000       |
+
+The TABB reserve will be held in a vesting contract with 0.5% being released every month for 120 months.  
+TABB released from the reserve may be sold to either provide funds for the development of the Tabbre Project or else used as collateral  for issuing bonds.  
+Initially the reserve will be managed by TRL, but will be transferred to TDL once this is operational.
+
+Reserve TABB that has been released from escrow will be deployed in one of the following ways:
+
+* Sold to provide liquidity to the market and to raise funds for use by the Tabbre Project.  
+* Held as collateral for the issuance of bonds to raise funds for the Tabbre Project  
+* Used as collateral for the issuance of BRE or as collateral for running TabbreChain proof of stake nodes  
+* Distributed as payment for services provided by partners to the Tabbre Project  
+* Held in reserve for future use  
+* Burnt to reduce the potential supply of TABB
+
+### **TABB Staking** {#tabb-staking}
+
+The TabbreChain will initially be operated as a permissioned blockchain, however once the TabbreChain has reached a level of development stability it will be operated using a proof of stake protocol. The asset used for staking will be TABB. Transaction fees will be payable in BRE.
+
+The TabbreChain will be operated by a consortium. Consortium members will be eligible to operate a validator node on the TabbreChain blockchain.  
+This will require the member to provide a minimum amount of TABB to be held by the scheme as a stake. This stake will be subject to slashing if the validator node transgresses e.g. by accepting and processing invalid transactions.  
+A detailed description of the organization and operation of the TabbreChain is provided elsewhere.
+
+### **TABB Collateral** {#tabb-collateral}
+
+Once the Tabbre Scheme has reached production, BRE will be issued as credit by the BRE Monetary Authority (BMA). This credit will have a low interest rate associated with it. Collateralized Credit Agents (CCA) will use TABB as collateral for borrowing BRE from the BMA. The CCAs will lend the BRE that they borrow from the BMA at a low rate of interest  to retail borrowers, who will pay a higher interest rate. Thus making the lending profitable for the CCAs.
+
+The BMA will be charged with maintaining BRE price stability and will be able to use the credit creation process as a tool to achieve this aim.
+
+### **TABB Buy back**  {#tabb-buy-back}
+
+Once the Tabbre Scheme has reached a target level of energy output, the Tabbre Foundation will use profits from the sale of energy to buy and burn TABB.
+
+
+
+
+
+
+
+
+
+
+
+
+
+## BRE Tokenomics
+
+
+
+BRE is an inflationary crypto currency in that its supply, which is controlled algorithmically, is driven by demand. BRE can be created and burned by the Tabbre Foundation to maintain BRE price stability.
+
+The supply of BRE will be managed by the Foundation using clearly formulated and published rules. 
+
+BRE will be created as credit.
 
 ![](https://raw.githubusercontent.com/tabbre/library/8dc2b4a20fe6004fe3b68439873378b09cf918cc/images/Diagrams/BRECreditCycleLightBG.svg)
 
 ### BRE Issuance
 BRE will be a stable value coin in that its value will be linked to the value of energy produced by the Tabbre Project.
+
+The principal role of BRE in the Tabbre system is as the currency for the sale of the sustainable renewable energy generated by the Tabbre Foundation’s portfolio of energy projects. Energy produced by the Tabbre Scheme will be priced in BRE and sold to customers in exchange for BRE. These customers will therefore need to have BRE to buy energy. This will create a demand and hence value for BRE.
+
+BRE will also be used to pay Tabbre’s global universal basic income.
+
+Initially, BRE will be created and held by the Tabbre scheme operator for paying suppliers and employees of the Tabbre Project. However, as Tabbre matures the issuance of BRE will be based on the credit creation process described here. 
+
+The BRE Monetary Authority (BMA) will be established. 
+
+The BMA will be responsible for managing the BRE monetary supply, acting in a role analogous to that of a central bank in the fiat currency system. 
+
+The BMA will be constituted as a DAO governed by the holders of TABB via a tokenocracy: One TABB one vote
+
+The BMA will be a decentralized autonomous organization. BRE will be issued by the BRE Monetary Authority, The BMA will manage the supply of BRE using an algorithmic process informed by data provided by oracle services.
+
+In the early stages of the Tabbre Project, it is expected that BRE will be deflationary to support investment inflows. However as the Tabbre Project starts to sell energy priced in BRE, the management of the supply of BRE will be changed to deliver BRE price stability so that BRE becomes a usable means of exchange rather than a deflationary investment asset.
+
+Creating all BRE as credit helps create a shortage of BRE, because there will always be more BRE owing than BRE in existence. This helps underpin the value of BRE.
+
+The BMA will issue BRE denominated loans to intermediaries called Collateralized Credit Agents (CCAs). 
+
+The role of Collateralized Credit Agents will be similar to that of retail banks in the fiat money system in that they will provide retail lending services to consumers and businesses. However it should be noted that unlike the fiat system, where new money is created by retail banks, and bank deposits are owned by the banks and not the account holder, the only party who can create new BRE is the Tabbre Foundation and all BRE will be held on chain in wallets controlled by the owners of that BRE.
+
+By using the centralized credit creation model the BRE Monetary Authority will be able to set interest rates and control the money supply to maintain the target value of BRE. 
+
+The CCAs will be required to pledge TABB as collateral for the BRE that they receive. This will help ensure that the CCAs lend responsibly. This will also act to reduce TABB liquidity helping to underpin the value of TABB.
+
+
+
+
+
+
+
+
+
+
+
+
+
++++++++++++
 
 BRE will be issued by the BRE Monetary Authority, BMA. This will be a decentralized autonomous organization and will manage the supply of BRE using an algorithmic process informed by data provided by oracle services.
 
@@ -142,17 +260,68 @@ In the event of a CCA not repaying a BRE loan to the BMA, or failing to comply w
 The rate of interest charged by the BMA will act as the BRE economies base rate of interest, the BRE Base Rate (BBR).
 
 The CCA’s will lend their borrowed BRE to retail customers including, inter alia: businesses, NGOs, consumers, state owned entities and local authorities. The interest rate charged by CCAs on their lending to the retail customers will be higher than the BBR. This provides the income for the CCAs. This could be considerable.
+
+If a BRE CCA fails to repay a BRE loan, theTABB collateral will be retained by the BRE Issuer. Depending on the circumstances,TABB acquired in this way will either be vested, auctioned off or burnt. Whichever is most appropriate for ensuring stability of the TABB/BRE financial system.
+
 ### BRE and Energy
 
 
 Tabbre intends to sell the energy that it produces for BRE. In the early stages of the Tabbre scheme, this may be problematic for the commercial entities that will be buying the energy. They may have an aversion, either because of regulation or cultural inertia to use BRE on the basis that it is not a recognized fiat currency. To overcome this problem the Tabbre scheme will create intermediaries, Energy Sales Agents (Agents). These Agents
+## Distribution of profits
+After the Distribution Point is reached, the scheme’s profits will be used to buy TABB in the open market. TABB bought in this way will be burnt thus creating a demand for TABB while reducing the supply of TABB.
 
-### Global Universal Basic Income
+The Tabbre DAO will be given the responsibility for the allocation of the scheme’s profits. It is envisaged that profits will be allocated to the following categories:
 
+- Research and Development
+- New Investment
+- Investor Returns
+- Global UBI
 
+The Tabbre Treasury will be responsible for the distribution of profits. 
+
+The Tabbre Treasury will be directed by the Tabbre DAO. 
+
+The exact nature and modus operandi of the DAO is a subject of research.
+
+## Global Universal Basic Income (GUBI)
+
+The Tabbre Project has identified a major risk to the long term success of the Tabbre Project.
+
+Using some of the profits generated 
 
 ## The TabbChain 
 
+The TabbChain will be a proof of stake (PoS) secured blockchain. 
+
+The TabbChain is a dual currency blockchain, expressing both TABB and BRE coins. TABB being the required currency for the staked deposits. 
+
+Tabbre Chain transaction charges will be payable in BRE. The block sealing rewards payable to block validators will be paid in BRE.
+
+The rules governing the operation of the TabbChain staking mechanism will be managed by smart contracts.
+
+Validator nodes (validators) will compete to seal blocks on the blockchain. A validator asserts that all the transactions recorded in the block are both fully valid and verified. If a block contains a transaction or transactions that are disputed by another validator then the block can be discarded if a quorate majority of validators agrees that the block should be discarded and replaced by a block that doesn’t contain the disputed transaction(s). 
+
+If this happens the validator of the rejected block will suffer a confiscation of a fraction of their staked TABB. The possibility of staked TABB being confiscated provides the economic incentive to keep validator operators honest. This is based on the assumption that the economic gain from approving dishonest transactions is always less than the cost of having a stake confiscated.
+
+The security of a proof of stake blockchain is therefore a function of the ratio of transactional value to staked value.
+
+TABB will be a deflationary cryptocurrency, with a fixed maximum supply. Demand for TABB will be driven in part by the Proof of Stake model of the Tabbre Chain as well as the use of TABB as collateral for the issuance of BRE denominated credit. As the value of assets held on the Tabbre Chain increases so too will the value and quantity of transactions increase. This will result in the BRE denominated rewards and fees paid to node operators also increasing.
+
+This will attract new node operators who will need to stake TABB, creating a demand for TABB. 
+
+As the value represented by assets on the Tabbre Chain increases the total value of TABB staked will also increase to maintain the security of the blockchain. This may lead to the size of the deposited staked funds required to operate a Tabbre Chain node increasing, however the total value of TABB staked can also increase through the effect of more nodes joining the network and also through an increase in the market value of TABB.
 
 
-![](https://raw.githubusercontent.com/tabbre/library/a32a37b6a54b028b4cd8782d87afa17c4317eba8/images/Diagrams/4%20Layer%20Blockchain%20Architecture%2020190212.svg)
+
+### **Security is based on the relative value of TABB** {#security-is-based-on-the-relative-value-of-tabb}
+
+Once mature, the Tabbre Project will use the income arising from the sale of energy either to bolster the scheme's reserves or else it will be distributed.  
+The preferred distribution method is for the Tabbre Project to buy TABB in the open market.  
+The purchased TABB may either be  held or burnt.  
+This links the sale of energy to the crypto economic model protecting the consortium blockchain.  
+As the Tabbre Projects energy sales increase  so too will the issuance of BRE increase over  time, so will the Tabbre Project’s income that can be used  to purchase  TABB.  
+This will drive both the demand for TABB and increase the scarcity of TABB.  
+Hence increasing TABBs value and so increasing the value of the capital deployed to secure the TabbreChain blockchain, making it correspondingly more secure.  
+Validator node operators will  be rewarded for operating their nodes: the BRE collected as transaction charges will be paid to the operators of validator nodes.  
+As the scheme grows in size so will the transaction charge revenue collected.  
+This will also drive demand for TABB and hence the price of the TABB.
