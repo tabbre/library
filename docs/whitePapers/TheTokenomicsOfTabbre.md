@@ -166,16 +166,6 @@ Once the Tabbre Scheme has reached a target level of energy output, the Tabbre F
 
 
 
-
-
-
-
-
-
-
-
-
-
 ## BRE Tokenomics
 
 
@@ -281,6 +271,10 @@ Using some of the profits generated
 
 ## The TabbChain 
 
+
+
+![](https://raw.githubusercontent.com/tabbre/library/35a5859cab652bdf9afab207cdee1557441f5bc1/images/Diagrams/Tabbre%C2%A0Wallet%20Service%20Provider%20Architecture.svg)
+
 The TabbChain will be a proof of stake (PoS) secured blockchain. 
 
 The TabbChain is a dual currency blockchain, expressing both TABB and BRE coins. TABB being the required currency for the staked deposits. 
@@ -304,6 +298,10 @@ As the value represented by assets on the Tabbre Chain increases the total value
 
 
 ### **Security is based on the relative value of TABB** {#security-is-based-on-the-relative-value-of-tabb}
+
+
+
+![](https://github.com/tabbre/library/blob/main/images/Diagrams/TABB%20Staking.png?raw=true)
 
 Once mature, the Tabbre Project will use the income arising from the sale of energy either to bolster the scheme's reserves or else it will be distributed.  
 The preferred distribution method is for the Tabbre Project to buy TABB in the open market.  
