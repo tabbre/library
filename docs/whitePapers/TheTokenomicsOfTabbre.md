@@ -46,23 +46,15 @@ This will make the transition to sustainable energy easier, cheaper and faster.
 
 These will be expressed on a new blockchain, the TabbreChain. The TabbreChain uses a proof of stake consensus.
 
-Transaction charges and other usage fees are payable in BRE. TABB is used as collateral for the stakes used in the TabbreChain's proof of stake consensus protocol.
+Transaction charges and other usage fees are payable in BRE. TABB is used as collateral for the stakes used in the TabbreChain's proof of stake consensus protocol. Stakeholders are rewarded in BRE.
 
-Stakeholders are rewarded in BRE.
+The TabbreChain will provide a smart contract execution environment. The TabbreChain hosts the smart contracts that encode the decentralized foundation's governance and tokenocracy rules.
 
-The TabbreChain will provide a smart contract execution environment.
-
-The TabbreChain hosts the smart contracts that encode the decentralized foundation's governance and tokenocracy rules.
-
-The governance smart contracts are amendable using a proof of stake voting system.
-
-This allows the Tabbre system to grow and evolve over time to reflect society's changing needs.
+The governance smart contracts are amendable using a proof of stake voting system. This allows the Tabbre system to grow and evolve over time to reflect society's changing needs.
 
 TABB is like Bitcoin in that it has a fixed maximum supply.
 
-A large fraction of all TABB will be held by a decentralized foundation, The Tabbre Foundation.
-
-The Foundation's TABB holdings will be used as collateral for debt finance to fund the development of Tabbre's oceanic floating solar farms.
+A large fraction of all TABB will be held by a decentralized foundation, The Tabbre Foundation. The Foundation's TABB holdings will be used as collateral for debt finance to fund the development of Tabbre's oceanic floating solar farms.
 
 BRE will be issued and managed by the The Tabbre Foundation using an algorithmic method to ensure the value of BRE remains stable.
 
@@ -110,6 +102,8 @@ Tabbre's dual coin scheme will be a censor resistant global monetary system that
 
 ### Overview
 
+![](https://raw.githubusercontent.com/tabbre/library/a32a37b6a54b028b4cd8782d87afa17c4317eba8/images/Diagrams/Tabbre%20Scheme%20High%20Level%20View.svg)
+
 
 
 ### Early Stage
@@ -124,7 +118,41 @@ Tabbre's dual coin scheme will be a censor resistant global monetary system that
 
 ## BRE
 
+![](https://raw.githubusercontent.com/tabbre/library/a32a37b6a54b028b4cd8782d87afa17c4317eba8/images/Diagrams/BRECreditCycleLightBG.svg)
+
+BRE Issuance
+BRE will be a stable value coin in that its value will be linked to the value of energy produced by the Tabbre Project.
+
+BRE will be issued by the BRE Monetary Authority, BMA. This will be a decentralized autonomous organization and will manage the supply of BRE using an algorithmic process informed by data provided by oracle services.
+
+The BMA will be hosted on the TabbreChain. This blockchain will be secured using a proof of stake (PoS) consensus model. 
+
+The TabbreChain will be operated by a consortium. Consortium members will be eligible to operate a validator node on the TabbreChain blockchain.
+This will require the member to provide a minimum amount of TABB to be held by the scheme as a stake. This stake will be subject to slashing if the validator node transgresses e.g. by accepting and processing invalid transactions.
+A detailed description of the organization and operation of the TabbreChain is provided elsewhere.
+
+Transaction charges will be applied to transactions submitted to the TabbreChain. These transaction charges will be denominated and payable in the BRE. BRE will be the TabbreChain’s native transactional currency.
+
+New  BRE coins will be minted onto the TabbreChain by the BMA. These newly minted BRE may be lent by the BMA to entities called collateralized credit agents, CCAs.
+
+CCA’s will provide TABB as collateral to the BMA as a pre-requisite for borrowing BRE.
+In the event of a CCA not repaying a BRE loan to the BMA, or failing to comply with the loan agreement in some other way,  the BMA will take the TABB collateral as full and final payment of the loan.Depending on the circumstances,TABB acquired in this way will either be vested, auctioned off or burnt. Whichever is most appropriate for ensuring stability of the TABB/BRE financial system.
+
+
+The rate of interest charged by the BMA will act as the BRE economies base rate of interest, the BRE Base Rate (BBR).
+
+The CCA’s will lend their borrowed BRE to retail customers including, inter alia: businesses, NGOs, consumers, state owned entities and local authorities. The interest rate charged by CCAs on their lending to the retail customers will be higher than the BBR. This provides the income for the CCAs. This could be considerable.
+BRE and Energy
+
+
+Tabbre intends to sell the energy that it produces for BRE. In the early stages of the Tabbre scheme, this may be problematic for the commercial entities that will be buying the energy. They may have an aversion, either because of regulation or cultural inertia to use BRE on the basis that it is not a recognized fiat currency. To overcome this problem the Tabbre scheme will create intermediaries, Energy Sales Agents (Agents). These Agents
+
+Global Universal Basic Income
+
+
+
 ## The TabbChain 
 
 
 
+![](https://raw.githubusercontent.com/tabbre/library/a32a37b6a54b028b4cd8782d87afa17c4317eba8/images/Diagrams/4%20Layer%20Blockchain%20Architecture%2020190212.svg)
