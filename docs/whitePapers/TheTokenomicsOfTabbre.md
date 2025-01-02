@@ -76,6 +76,10 @@ BRE is created dynamically on the Tabbre blockchain, in accordance with the Tabb
 
 Tabbre is expected to be hugely profitable when it achieves its objective of being the principal global supplier of energy.
 
+
+
+![](https://raw.githubusercontent.com/tabbre/library/a32a37b6a54b028b4cd8782d87afa17c4317eba8/images/Diagrams/Tabbre%20Scheme%20High%20Level%20View.svg)
+
 ### The Global UBI
 
 Tabbre's solar farms are located in international waters that are considered global commons.
@@ -97,20 +101,6 @@ This will create a substantial and sustainable global economic role for BRE allo
 As such BRE will need to be created in sufficient quantities that it operates as a stable value coin. It is envisaged the value of BRE will be governed by the average price of energy produced by the scheme.
 
 Tabbre's dual coin scheme will be a censor resistant global monetary system that will supplement and compete with the world's existing fiat based banking systems.
-
-## The TABBRE economic model
-
-### Overview
-
-![](https://raw.githubusercontent.com/tabbre/library/a32a37b6a54b028b4cd8782d87afa17c4317eba8/images/Diagrams/Tabbre%20Scheme%20High%20Level%20View.svg)
-
-
-
-### Early Stage
-
-### Before Distribution Point
-
-### After Distribution Point
 
 
 
