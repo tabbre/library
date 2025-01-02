@@ -118,9 +118,9 @@ Tabbre's dual coin scheme will be a censor resistant global monetary system that
 
 ## BRE
 
-![](https://raw.githubusercontent.com/tabbre/library/a32a37b6a54b028b4cd8782d87afa17c4317eba8/images/Diagrams/BRECreditCycleLightBG.svg)
+![](https://raw.githubusercontent.com/tabbre/library/8dc2b4a20fe6004fe3b68439873378b09cf918cc/images/Diagrams/BRECreditCycleLightBG.svg)
 
-BRE Issuance
+### BRE Issuance
 BRE will be a stable value coin in that its value will be linked to the value of energy produced by the Tabbre Project.
 
 BRE will be issued by the BRE Monetary Authority, BMA. This will be a decentralized autonomous organization and will manage the supply of BRE using an algorithmic process informed by data provided by oracle services.
@@ -142,12 +142,12 @@ In the event of a CCA not repaying a BRE loan to the BMA, or failing to comply w
 The rate of interest charged by the BMA will act as the BRE economies base rate of interest, the BRE Base Rate (BBR).
 
 The CCA’s will lend their borrowed BRE to retail customers including, inter alia: businesses, NGOs, consumers, state owned entities and local authorities. The interest rate charged by CCAs on their lending to the retail customers will be higher than the BBR. This provides the income for the CCAs. This could be considerable.
-BRE and Energy
+### BRE and Energy
 
 
 Tabbre intends to sell the energy that it produces for BRE. In the early stages of the Tabbre scheme, this may be problematic for the commercial entities that will be buying the energy. They may have an aversion, either because of regulation or cultural inertia to use BRE on the basis that it is not a recognized fiat currency. To overcome this problem the Tabbre scheme will create intermediaries, Energy Sales Agents (Agents). These Agents
 
-Global Universal Basic Income
+### Global Universal Basic Income
 
 
 
