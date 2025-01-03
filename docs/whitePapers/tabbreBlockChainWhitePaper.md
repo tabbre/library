@@ -254,11 +254,11 @@ TABB will be worth $100 tr
 
 ![](https://raw.githubusercontent.com/tabbre/library/35a5859cab652bdf9afab207cdee1557441f5bc1/images/Diagrams/Tabbre%C2%A0Wallet%20Service%20Provider%20Architecture.svg)
 
-The TabbChain will be a proof of stake (PoS) secured blockchain. 
+The TabbreChain will be a proof of stake (PoS) secured blockchain. 
 
-The TabbChain is a dual currency blockchain, expressing both TABB and BRE coins. TABB being the required currency for the staked deposits. 
+The TabbreChain is a dual currency blockchain, expressing both TABB and BRE coins. TABB being the required currency for the staked deposits. 
 
-Tabbre Chain transaction charges will be payable in BRE. The block sealing rewards payable to block validators will be paid in BRE.
+TabbreChain transaction charges will be payable in BRE. The block sealing rewards payable to block validators will be paid in BRE.
 
 The rules governing the operation of the TabbChain staking mechanism will be managed by smart contracts.
 
@@ -273,6 +273,14 @@ TABB will be a deflationary cryptocurrency, with a fixed maximum supply. Demand 
 This will attract new node operators who will need to stake TABB, creating a demand for TABB. 
 
 As the value represented by assets on the Tabbre Chain increases the total value of TABB staked will also increase to maintain the security of the blockchain. This may lead to the size of the deposited staked funds required to operate a Tabbre Chain node increasing, however the total value of TABB staked can also increase through the effect of more nodes joining the network and also through an increase in the market value of TABB.
+
+
+
+
+
+
+
+
 
 
 
@@ -292,3 +300,6 @@ Hence increasing TABBs value and so increasing the value of the capital deployed
 Validator node operators will  be rewarded for operating their nodes: the BRE collected as transaction charges will be paid to the operators of validator nodes.  
 As the scheme grows in size so will the transaction charge revenue collected.  
 This will also drive demand for TABB and hence the price of the TABB.
+
+
+
