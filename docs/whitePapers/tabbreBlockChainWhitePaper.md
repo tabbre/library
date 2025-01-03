@@ -1,46 +1,41 @@
-# The TabbChain
+# The TabbreChain
+
+***The multi chain blockchain of the Tabbre Project***
 
 
 
 ## Introduction
 
-*energy*
+Tabbre's mission is to end the climate crisis and reduce global poverty. Tabbre will achieve these goals by becoming the world's leading supplier of energy by the 2040's. 
 
-Tabbre's development of floating oceanic 
+All the energy produced and distributed by Tabbre will be carbon neutral and fully sustainable. Tabbre's energy sales will be made in Tabbre's own cryptocurrency, BRE. BRE stands for Basic Renewable Energy.
 
-Tabbre intends to become the world's leading supplier of energy by 2050
+Tabbre will use the profits from the sale of energy to fund a global universal basic income (GUBI). This will be distributed in BRE.
 
+As a consequence of the scale of Tabbre's energy sales and the distribution of the GUBI, Tabbre will become the world’s de facto self sovereign decentralized global monetary system. Tabbre will supplement and compete with the world’s existing fiat based banking system. Tabbre's BRE currency will provide an independent alternative to the US dollar. This will bring important benefits to the global economy including the ability to run monetary policy for the benefit of the entire world and not just to satisfy the economic needs of one country.
 
+Achieving these goals requires overcoming a number of technical challenges inherent in blockchain technology, including low transaction throughput and a tendency for large decentralized systems to become centralized over time. Tabbre must provide a secure blockchain system that will be able to process millions of transactions per second with low latency and global reach.
 
-The Tabbre Project intends to create and fund a global universal basic income (GUBI). The Tabbre GUBI will be distributed using Tabbre’s BRE currency. 
+ In addition the system needs to accommodate the expected demands of being able to interoperate with the existing fiat currency system and also provide the capability to support DeFi applications. 
 
+It’s with this challenge in mind that Tabbre proposes the integrated multichain system described in this document.
 
-Achieving this goal requires overcoming a number of challenges, including, transactional throughput, interoperability with the existing financial system and maintaining the decentralized nature of the blockchain hosting the BRE currency.
-
-Tabbre intends to become the world’s independent decentralized monetary system that will supplement and compete with the world’s existing fiat based banking systems. 
-
-If Tabbre is to achieve its goal of becoming a self sovereign global  currency system, Tabbre must overcome the challenge of providing a secure blockchain system that will be able to process millions of transactions per second with low latency and global reach.
-
- In addition the system needs to accommodate the expected demands of being able to interoperate with the existing fiat currency system and also provide the capability to support DeFi applications. It’s with this challenge in mind that Tabbre proposes the  integrated multichain system described in this document.
-
-
-The multichain model that Tabbre proposes consists of a master chain, the CoreChain and a number of dependent sub chains, these will be called BreChain’s.
-
+The multichain model that Tabbre proposes consists of a master chain, the TabbChain and a number of dependent sub chains, these will be called BreChain’s.
 
 The Tabbre blockchain system will express two native currencies: TABB and BRE.
 
+TABB will be a fixed supply and hence, deflationary coin that will be used for staking for both the TabbChain and the BreChains.
 
-TABB will be a fixed supply and hence, deflationary coin that will be used for staking for both the CoreChain and the BreChains.
-
-
-All coins, both TABB and BRE will be created on the CoreChain. BRE will be transferable to and from the BreChains and between them. These transfers will be conducted using a decentralised transfer service.
+All coins, both TABB and BRE will be created on the TabbChain. BRE will be transferable to and from the BreChains and between them. These transfers will be conducted using a decentralised transfer service.
 
 ## Requirements
 
 
 
 ### Transactional Throughput
-By 2050 the global population will be close to 9.7 billion. If every person is given an account at birth, this implies 9.7 billion accounts just for the distribution of the GUBI. 
+By 2050 the global population will be close to 9.7 billion. 
+
+If the GUBI is payable to everyone on earth, and each person is allocated an account at birth, this implies 9.7 billion accounts. 
 
 
 If we assume 10 transactions a day for these accounts, this implies a transactional rate of 1.1 million transactions per second. 
@@ -56,7 +51,7 @@ As decentralized ledgers grow in size the cost involved with running a node incr
 
 
 
-## Tabbre’s approach to Scalability
+## Tabbre’s Approach to Scalability
 
 The lack of scalability is a major concern for blockchain developers. Various approaches have been tried, all come up short. The problem of blockchain scalability in terms of transactional throughput is typically presented as a trilemma, where only two out of the following three alternatives can be had: 
 
