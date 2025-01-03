@@ -1,4 +1,11 @@
-# The TabbreChain
+---
+title: The TabbreChain Whitepaper
+date: 2025-01-03
+categories: [Blockchain, Crypto]
+tags: [jekyll, yaml, markdown]
+Author: Charles Cunningham
+---
+# The TabbreChain Whitepaper
 
 ***The multi chain blockchain of the Tabbre Project***
 

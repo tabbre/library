@@ -1,3 +1,13 @@
+---
+​---
+title: The Tokenomics of the TABBRE system
+date: 2025-01-03
+categories: [Blockchain, Crypto]
+tags: [jekyll, yaml, markdown]
+Author: Charles Cunningham
+​---
+---
+
 # The Tokenomics of the TABBRE system
 
 
