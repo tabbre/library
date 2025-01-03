@@ -4,6 +4,22 @@
 
 ## Introduction
 
+The purpose of this document is to describe in general terms how the Tabbre Multichain Ledger works and how it solves the transa problem 
+
+
+
+of very low transaction rates that is holding back blockchain development. Achieving this goal is essential if the Tabbre Project is to deliver its vision of a decentralized global financial system and the payment of its universal basic income.
+
+This document assumes that the reader is familiar with terminology and basic concepts of blockchain technology such as smart contracts and consensus protocols.
+
+Tabbre intends to become the world’s independent decentralized monetary system that will supplement and compete with the world’s existing fiat based banking systems. 
+
+For Tabbre to deliver a truly global financial system that can replace fiat currencies, including cash and existing banks, requires a fully scalable architecture. 
+
+
+
++++++++++++++
+
 If Tabbre is to achieve its goal of becoming a self sovereign global reserve currency system, Tabbre must overcome the challenge of providing a secure blockchain system that will be able to process millions of transactions per second with low latency and global reach. In addition the system needs to accommodate the expected demands of being able to interoperate with the existing fiat currency system and also provide the capability to support DeFi applications. It’s with this challenge in mind that Tabbre proposes the  integrated multichain system described in this document.
 
 
@@ -20,6 +36,99 @@ All coins, both TABB and BRE will be created on the CoreChain. BRE will be trans
 
 ## Requirements
 
+The Tabbre Project intends to create and fund a global universal basic income (GUBI). The Tabbre GUBI will be distributed using Tabbre’s BRE currency.
+
+
+Achieving this goal requires overcoming a number of challenges, including, transactional throughput, interoperability with the existing financial system and maintaining the decentralized nature of the blockchain hosting the BRE currency.
+
+
+
+### Transactional Throughput
+By 2050 the global population will be close to 9.7 billion. If every person is given an account at birth, this implies 9.7 billion accounts just for the distribution of the GUBI. 
+
+
+If we assume 10 transactions a day for these accounts, this implies a transactional rate of 1.1 million transactions per second. 
+
+### Interoperability
+
+The Tabbre blockchain system will need to be interoperable with the existing global financial system. The key to this interoperability lies in the metadata associated with transactions. Metadata describes the who, where,when and why of transactions. 
+
+Current blockchain systems do not collect this information.
+
+### Decentralization
+As decentralized ledgers grow in size the cost involved with running a node increases. This has a consequence that the number of independent node operators declines resulting in a reduction in decentralization. The Tabbre blockchain needs to be adequately decentralized to preserve the benefits of decentralization while delivering the service performance needed for a truly global financial system.
+
+
+
+## Tabbre’s approach to Scalability
+
+The lack of scalability is a major concern for blockchain developers. Various approaches have been tried, all come up short. The problem of blockchain scalability in terms of transactional throughput is typically presented as a trilemma, where only two out of the following three alternatives can be had: 
+
+- High transaction throughput
+
+- Security
+- Decentralization
+
+All current efforts to provide a high transactional throughput seem to sacrifice either security or more typically decentralization. Some achieve modest improvements in transactional throughput over the established decentralized blockchains by optimising existing design practice without sacrificing either security or decentralization. The Tabbre project takes advantage of this work.
+
+The root cause of the trilemma is the fact that the consensus process for replicated state machines at the heart of the blockchain decentralized ledger is fundamentally single threaded.
+
+The trilemma can never be solved for a single blockchain. The best that can be achieved is an optimized design that will allow something like a thousand transactions per second. This is two or three orders of magnitude better than the early blockchain designs, but is still orders of magnitude too small for a globalized system that will require millions of transactions per second.
+
+Tabbre proposes to solve the problem of scalability by the simple expedient of introducing many blockchain ledgers, each of identical design and operation, each operating their own independent consensus and each expressing the same currency. Tabbre calls this architecture a Multichain Ledger. 
+
+Transfers of value between blockchains will be relatively infrequent. An amount of coin on one Tabbre Multichain blockchain is worth the same as the same amount of coin on any other Tabbre Multichain blockchain. 
+Transfers to accounts will create the account if it doesn’t already exist. A user’s account balances can exist on any number of Tabbre Multichain blockchains. 
+End users will not see the individual blockchains, their experience will be simplified by wallets that provide an aggregate view of an account, all balances for an account that exist on every blockchain in the ledger will be displayed as a single account balance by the wallet.
+
+The Tabbre Multichain approach is conceptually simple and delivers increased throughput.
+$$
+tx/s = Number of Transactions per second
+$$
+$$
+tx/b = Number of Transactions per block
+$$
+$$
+b/s	= Block Rate Per Second
+$$
+$$
+N	= Number of blockchains in multichain
+$$
+
+
+
+For all existing blockchains:
+
+Transaction rate per second     =  (Number of Transactions per block)  x (Block Rate Per Second) 
+
+$$
+or : tx/s  	 = (tx/b) . (b/s)
+$$
+For Tabbre Multichain: 
+
+Transaction rate per second    =  (Number of Transactions per block) x (Block Rate Per Second) x (Number of blockchains)
+$$
+or: tx/s  	 = (tx/b) . (b/s) . N
+$$
+This approach means that the Tabbre Multichain architecture is linearly scalable: each blockchain requires the same processing power as any other blockchain in the multichain ledger and the more blockchains that exist the more transactional throughput is available.
+Adding more blockchains and proportionately more processing power adds more throughput.
+
+
+
+## How the Tabbre Multichain ledger works
+
+The Tabbre Multichain protocol provides a mechanism for sharding a blockchain based distributed ledger and in so doing addresses the problem of scalability that afflicts blockchain systems. The Tabbre Multichain scheme provides for near linear scalability, the more shards that are added together with proportionately more processing power, the correspondingly more transaction throughput.
+
+
+In the Tabbre Multichain system the shards are referred to as subchains and the complete Tabbre Multichain ledger that consists of the subchains is termed a multichain. 
+
+
+Each subchain is a self contained blockchain based replicated database with its own replication consensus and works independently of any other subchain. All subchains are equally secure.
+
+
+
++++++++++++++++++
+
 ### Scale
 
 1. Global distribution
@@ -29,8 +138,112 @@ All coins, both TABB and BRE will be created on the CoreChain. BRE will be trans
 3. At 10 Tx per account per day => c. 1 million tps 
 
 4. 1 second blocktime
-
 5. TX data 256bytes => 2.5Kbits per tx
+
+### Blockchain Implications
+
+Each blockchain: 10,000 tps =>  100x blockchains
+
+If blockrate is 1 per second and each Blockchain has 1000 validator nodes => 100,000 validators
+
+
+
+### Network constraints
+
+Earth 40,000 km in circumference
+
+Speed of light in fibre optic cable 200,000 Km per second
+
+Latency 1 ms per hop
+
+Assume max 20 hops and 80,000 km round trip => 80/200 seconds + 20 ms => 420ms latency
+
+
+=> blockrate of c. 2  per second for a global system
+
+If finality is assumed after 12+ blocks (like Ethereum), the transaction finality will be 6 seconds.
+
+### Network traffic
+
+Each node receives and sends all Tx data 2x
+
+Tx data per second = 256 x 2 x 10 bits * 10,000 = 51.2*106   bps or c. 50 mbps.
+
+
+
+# **Data Storage volumes**
+
+Each node receives and sends all Tx data 2x
+
+Tx data per second = 256 x 2 x 10 bits * 10,000 = 51.2*106  bps or c. 50 mbps.
+
+Storage capacity: if each TX is 2k bytes => 20 MBytes per second. => 6.3x1014
+
+Providing for 100% redundancy => c. 1.2 Petabytes pa.
+
+# **Costs**
+
+## **Network** 
+
+Gigabit Ethernet costs c. $500/£300 pcm
+
+## **Data Storage**
+
+Cost today for storage at retail prices: $40,000 per petabyte => $48,000
+
+## **Processing Power**
+
+Rack mounted servers; $30,000 USD
+
+Energy cost assuming 2 Kw consumption at $0.3 per KWh => c. $5256 pa
+
+Estimated cost of running nodes at today's prices => c. $100,000
+
+# **Cost of running Tabbre multichain**
+
+Number of blockchain nodes = 100,000
+
+Annual cost of running a validator = $100k =
+
+Cost of running Tabbre network => $10bn pa.
+
+# **Revenue**
+
+At $0.01 per Tx => ($0.01 per tx) x (106 x seconds per year) = $315 bn
+
+# **Economics**
+
+Tabbre Project estimated total capex = $15 tr.
+
+Project Duration - years	15 
+
+Avg spend pa $ 1.0 tr pa
+
+Average running cost = 1% of installed capital
+
+Max spend 10% total capex = $1.5 
+
+Capex avg life years
+
+Tabbre Revenue in 2045 in 2023 USD = $4.5 tr pa 
+
+Interest Rate	= 5%
+
+Zero coupon discounted bonds maturing in 10 years
+
+# **How much will TABB be worth?**
+
+2045 ESTIMATE
+
+If Tabbre Revenue = $4.5 tr pa and this is 90% profit and we assume a PE of 25
+
+TABB will be worth $100 tr
+
+
+
+
+
+
 
 ## Architecture
 
