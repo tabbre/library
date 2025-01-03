@@ -4,23 +4,24 @@
 
 ## Introduction
 
-The purpose of this document is to describe in general terms how the Tabbre Multichain Ledger works and how it solves the transa problem 
+*energy*
+
+Tabbre's development of floating oceanic 
+
+Tabbre intends to become the world's leading supplier of energy by 2050
 
 
 
-of very low transaction rates that is holding back blockchain development. Achieving this goal is essential if the Tabbre Project is to deliver its vision of a decentralized global financial system and the payment of its universal basic income.
+The Tabbre Project intends to create and fund a global universal basic income (GUBI). The Tabbre GUBI will be distributed using Tabbre’s BRE currency. 
 
-This document assumes that the reader is familiar with terminology and basic concepts of blockchain technology such as smart contracts and consensus protocols.
+
+Achieving this goal requires overcoming a number of challenges, including, transactional throughput, interoperability with the existing financial system and maintaining the decentralized nature of the blockchain hosting the BRE currency.
 
 Tabbre intends to become the world’s independent decentralized monetary system that will supplement and compete with the world’s existing fiat based banking systems. 
 
-For Tabbre to deliver a truly global financial system that can replace fiat currencies, including cash and existing banks, requires a fully scalable architecture. 
+If Tabbre is to achieve its goal of becoming a self sovereign global  currency system, Tabbre must overcome the challenge of providing a secure blockchain system that will be able to process millions of transactions per second with low latency and global reach.
 
-
-
-+++++++++++++
-
-If Tabbre is to achieve its goal of becoming a self sovereign global reserve currency system, Tabbre must overcome the challenge of providing a secure blockchain system that will be able to process millions of transactions per second with low latency and global reach. In addition the system needs to accommodate the expected demands of being able to interoperate with the existing fiat currency system and also provide the capability to support DeFi applications. It’s with this challenge in mind that Tabbre proposes the  integrated multichain system described in this document.
+ In addition the system needs to accommodate the expected demands of being able to interoperate with the existing fiat currency system and also provide the capability to support DeFi applications. It’s with this challenge in mind that Tabbre proposes the  integrated multichain system described in this document.
 
 
 The multichain model that Tabbre proposes consists of a master chain, the CoreChain and a number of dependent sub chains, these will be called BreChain’s.
@@ -35,11 +36,6 @@ TABB will be a fixed supply and hence, deflationary coin that will be used for s
 All coins, both TABB and BRE will be created on the CoreChain. BRE will be transferable to and from the BreChains and between them. These transfers will be conducted using a decentralised transfer service.
 
 ## Requirements
-
-The Tabbre Project intends to create and fund a global universal basic income (GUBI). The Tabbre GUBI will be distributed using Tabbre’s BRE currency.
-
-
-Achieving this goal requires overcoming a number of challenges, including, transactional throughput, interoperability with the existing financial system and maintaining the decentralized nature of the blockchain hosting the BRE currency.
 
 
 
@@ -83,16 +79,16 @@ End users will not see the individual blockchains, their experience will be simp
 
 The Tabbre Multichain approach is conceptually simple and delivers increased throughput.
 $$
-tx/s = Number of Transactions per second
+tx/s = Number Of Transactions Per Second
 $$
 $$
-tx/b = Number of Transactions per block
+tx/b = Number Of Transactions Per Block
 $$
 $$
 b/s	= Block Rate Per Second
 $$
 $$
-N	= Number of blockchains in multichain
+N	= Number Of Blockchains In Multichain
 $$
 
 
@@ -101,19 +97,22 @@ For all existing blockchains:
 
 Transaction rate per second     =  (Number of Transactions per block)  x (Block Rate Per Second) 
 
+or: 
 $$
-or : tx/s  	 = (tx/b) . (b/s)
+tx/s  	 = (tx/b) . (b/s)
 $$
 For Tabbre Multichain: 
 
 Transaction rate per second    =  (Number of Transactions per block) x (Block Rate Per Second) x (Number of blockchains)
-$$
-or: tx/s  	 = (tx/b) . (b/s) . N
-$$
-This approach means that the Tabbre Multichain architecture is linearly scalable: each blockchain requires the same processing power as any other blockchain in the multichain ledger and the more blockchains that exist the more transactional throughput is available.
-Adding more blockchains and proportionately more processing power adds more throughput.
 
 
+
+or: 
+$$
+tx/s  	 = (tx/b) . (b/s) . N
+$$
+This approach means that the Tabbre Multichain architecture is linearly scalable: each blockchain requires the same processing power as any other blockchain in the multichain ledger and the more blockchains that exist in the multichain the more transactional throughput is available.
+Adding more blockchains proportionately adds more throughput.
 
 ## How the Tabbre Multichain ledger works
 
